@@ -54,10 +54,7 @@ final String[] param = {
 
 ```
 ## Future work
-We can use many different criteria to decide what elements to remove from the program bycode. JaCoCo implements a set of different counters to calculate coverage metrics (e.g., branch coverage, class coverage, coverage of individual lines, cyclomatic complexity, etc). It could be interesting to study the performance of these metrics for removing rarely used programs' features. This give various benefits to the software developement; e.g., increase software security, decrease code size, and gain in execution optimality.
-
-
-
+We can use many different criteria to decide what elements to remove from the program bytecode. JaCoCo implements a set of different counters to calculate coverage metrics (e.g., branch coverage, class coverage, coverage of individual lines, cyclomatic complexity, etc.). It could be interesting to study the performance of these metrics for removing rarely used programs' features. This give various benefits to the software development; e.g., increase software security, decrease code size, and gain in execution optimality.
 
 
 
