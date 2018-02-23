@@ -23,7 +23,7 @@ First, we use Junco to get a connection to the JaCoCo agent, dump the current co
 
 #### Example
 
-The example class `Calculator.java` is located in `.\junco-provider-master\test-project\src\main\java\classes`. Once you complete the build of the Maven project `test-project`, the tests coverage reports will be generated in  `\junco-provider-master\test-project\target\site\junco`. At this point, you can run the `AssignmentRunner.java` which executes the class transformation. The transformed class `Calculator.java` is put in `test-project\output\classes`. We include  comments at the top of the transformed classes with the names of the uncovered methods that were removed.
+The example class `Calculator.java` is located in `.\junco-provider-master\test-project\src\main\java\classes`. Once you complete the build of the Maven project `assignment3-master`, the tests coverage reports will be generated in  `assignment3-master\target\site\junco`. At this point, you can run the `AssignmentRunner.java` which executes the class transformation. The transformed class `Calculator.java` will be put in `assignment3-master\output\classes`. We include  comments at the top of the transformed classes with the names of the uncovered methods that were removed.
 
 If you change the location of the classess, you need to update the following paths in `SpoonProcessor.java`:  
 
