@@ -2,7 +2,7 @@
 
 ## Task description
 
-> "The idea of this transformation is to remove useless code in an application. One way to start is to instrument the code in order to  > get the parts of the code that are executed when running a test suite. Once you have these parts, you can run a transformation that > removes the parts that are not used to run the test suite." 
+> "The idea of this transformation is to remove useless code in an application. One way to start is to instrument the code in order to  > get the parts of the code that are executed when running a test suite. Once you have these parts, you can run a transformation that removes the parts that are not used to run the test suite." 
 
 ## Approach
 
