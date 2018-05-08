@@ -43,7 +43,7 @@ public class SpoonProcessor extends AbstractProcessor<CtClass> {
      */
     public SpoonProcessor() throws IOException {
 
-        notCoveredMethodNames = p.process();
+        notCoveredMethodNames = p.process2();
 
     }
 

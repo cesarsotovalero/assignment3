@@ -1,5 +1,7 @@
 package classes;
 
+
+
 public class Calculator {
 
     public double add(double number1, double number2) {
