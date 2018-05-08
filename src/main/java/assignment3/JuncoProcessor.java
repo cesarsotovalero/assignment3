@@ -167,6 +167,7 @@ public class JuncoProcessor {
             for (IClassCoverage c : coverageBuilder.getClasses()) {
 
                 System.out.println("Analyzing class: " + c.getName());
+                
 
                 Collection<IMethodCoverage> methods = c.getMethods();
 
