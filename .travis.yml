@@ -1,27 +1,11 @@
-sudo: false
 language: java
+sudo: false
 
 jdk:
   - openjdk7
-  - oraclejdk8
-  
-cache:
-  directories:
-    - $HOME/.m2
 
-deploy:
-  provider: script
-  script: mvn -f assignment3-master test
-  install: mvn -f assignment3-master install -DskipTests=true
-  skip_cleanup: true
-  on:
-    tags: true
-
-sudo: false
-
-notifications:
-  email: false
-  
+script:
+  - mvn
 
 
 
